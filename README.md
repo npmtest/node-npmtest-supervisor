@@ -1,7 +1,7 @@
 # test coverage for  [supervisor (v0.12.0)](https://github.com/petruisfan/node-supervisor/)  [![npm package](https://img.shields.io/npm/v/npmtest-supervisor.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-supervisor) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-supervisor.svg)](https://travis-ci.org/npmtest/node-npmtest-supervisor)
 #### A supervisor program for running nodejs programs
 
-[![NPM](https://nodei.co/npm/supervisor.png?downloads=true)](https://www.npmjs.com/package/supervisor)
+[![NPM](https://nodei.co/npm/supervisor.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/supervisor)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-supervisor/tree/alpha)|
 |--:|:--|
@@ -9,11 +9,11 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-supervisor/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-supervisor/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-supervisor/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-supervisor/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-supervisor/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-supervisor/build/coverage.html/index.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-supervisor/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-supervisor/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-supervisor/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-supervisor%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-supervisor/build/test-report.html)
+[![test-report](https://npmtest.github.io/node-npmtest-supervisor/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-supervisor/build/test-report.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-supervisor/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-supervisor%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-supervisor/build/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-supervisor/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-supervisor/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-supervisor/build/screenCapture.npmPackageListing.svg)
 
@@ -27,8 +27,7 @@
 
 {
     "author": {
-        "name": "Isaac Z. Schlueter",
-        "email": "i@izs.me"
+        "name": "Isaac Z. Schlueter"
     },
     "bin": {
         "node-supervisor": "lib/cli-wrapper.js",
@@ -39,112 +38,85 @@
     },
     "contributors": [
         {
-            "name": "Todd Branchflower",
-            "email": "toddbran@stanford.edu"
+            "name": "Todd Branchflower"
         },
         {
-            "name": "Giannis Dzegoutanis",
-            "email": "erasmospunk@gmail.com"
+            "name": "Giannis Dzegoutanis"
         },
         {
-            "name": "Brian Ehmann",
-            "email": "behmann@gmail.com"
+            "name": "Brian Ehmann"
         },
         {
-            "name": "Corey Jewett",
-            "email": "cj@syntheticplayground.com"
+            "name": "Corey Jewett"
         },
         {
-            "name": "Taka Kojima",
-            "email": "taka.kojima@ff0000.com"
+            "name": "Taka Kojima"
         },
         {
-            "name": "Aneil Mallavarapu",
-            "email": "aneil@blipboard.com"
+            "name": "Aneil Mallavarapu"
         },
         {
-            "name": "Doug McCall",
-            "email": "dhm116@psu.edu"
+            "name": "Doug McCall"
         },
         {
-            "name": "Mathieu M-Gosselin",
-            "email": "mathieumg@gmail.com"
+            "name": "Mathieu M-Gosselin"
         },
         {
-            "name": "David Murdoch",
-            "email": "hello@davidmurdoch.com"
+            "name": "David Murdoch"
         },
         {
-            "name": "mx1700",
-            "email": "mx1700@gmail.com"
+            "name": "mx1700"
         },
         {
-            "name": "Michiel ter Reehorst",
-            "email": "jm.ter.reehorst@jamiter.com"
+            "name": "Michiel ter Reehorst"
         },
         {
-            "name": "Jonathan 'Wolf' Rentzsch",
-            "email": "jwr.git@redshed.net"
+            "name": "Jonathan 'Wolf' Rentzsch"
         },
         {
-            "name": "John Roberts",
-            "email": "jroberts@logitech.com"
+            "name": "John Roberts"
         },
         {
-            "name": "Scott Sanders",
-            "email": "scott@stonecobra.com"
+            "name": "Scott Sanders"
         },
         {
-            "name": "Thomas Schaaf",
-            "email": "schaaf@komola.de"
+            "name": "Thomas Schaaf"
         },
         {
-            "name": "Fernando H. Silva",
-            "email": "ferhensil@gmail.com"
+            "name": "Fernando H. Silva"
         },
         {
-            "name": "Kei Son",
-            "email": "heyacct@gmail.com"
+            "name": "Kei Son"
         },
         {
-            "name": "David Taylor",
-            "email": "david@zensatellite.com"
+            "name": "David Taylor"
         },
         {
-            "name": "Antonio Touriño",
-            "email": "atourino@gmail.com"
+            "name": "Antonio Touriño"
         },
         {
-            "name": "Oliver Wong",
-            "email": "oliver@owiber.com"
+            "name": "Oliver Wong"
         },
         {
-            "name": "Di Wu",
-            "email": "dw323@cornell.edu"
+            "name": "Di Wu"
         },
         {
-            "name": "Jesse Yang",
-            "email": "jyyjcc@gmail.com"
+            "name": "Jesse Yang"
         },
         {
-            "name": "Ian Young",
-            "email": "ian.greenleaf@gmail.com"
+            "name": "Ian Young"
         },
         {
-            "name": "jazzzz",
-            "email": "jazzzz@gmail.com"
+            "name": "jazzzz"
         },
         {
-            "name": "philpill",
-            "email": "github@philpill.net"
+            "name": "philpill"
         },
         {
-            "name": "rma4ok",
-            "email": "rma4ok@gmail.com"
+            "name": "rma4ok"
         },
         {
-            "name": "Petru Isfan",
-            "email": "petru.isfan@gmail.com"
+            "name": "Petru Isfan"
         }
     ],
     "dependencies": {},
@@ -166,22 +138,18 @@
     "main": "lib/supervisor.js",
     "maintainers": [
         {
-            "name": "iangreenleaf",
-            "email": "ian.greenleaf@gmail.com"
+            "name": "iangreenleaf"
         },
         {
-            "name": "isaacs",
-            "email": "isaacs@npmjs.com"
+            "name": "isaacs"
         },
         {
-            "name": "petruisfan",
-            "email": "petru.isfan@gmail.com"
+            "name": "petruisfan"
         }
     ],
     "name": "supervisor",
     "optionalDependencies": {},
     "preferGlobal": true,
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/petruisfan/node-supervisor.git"
